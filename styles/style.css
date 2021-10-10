@@ -5,7 +5,7 @@ body{
 #MyHeader{
     margin: 0px;
     height: 70vh;
-    background-image: url(static/headerBG.jpg);
+    background-image: url(headerBG.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.85;
