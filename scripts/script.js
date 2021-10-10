@@ -6,7 +6,7 @@ function fun1() {
     let x4 = document.getElementById("Contact");
     console.log(x.style.display);
     if (x.style.display === "none") {
-        x.style.display = "inline-block";
+        x.style.display = "block";
     }
     x1.style.display = "none";
     x2.style.display = "none";
@@ -24,7 +24,7 @@ function fun2() {
     console.log(x.style.display);
     if (x.style.display === "none") {
 
-        x.style.display = "inline-block";
+        x.style.display = "block";
     }
     x1.style.display = "none";
     x2.style.display = "none";
@@ -39,7 +39,7 @@ function fun3() {
     let x3 = document.getElementById("Hobbies");
     let x4 = document.getElementById("Contact");
     if (x.style.display === "none") {
-        x.style.display = "inline-block";
+        x.style.display = "block";
     }
     x1.style.display = "none";
     x2.style.display = "none";
@@ -53,7 +53,7 @@ function fun4() {
     let x3 = document.getElementById("Education");
     let x4 = document.getElementById("Contact");
     if (x.style.display === "none") {
-        x.style.display = "inline-block";
+        x.style.display = "block";
     }
     x1.style.display = "none";
     x2.style.display = "none";
@@ -68,7 +68,7 @@ function fun5() {
     let x3 = document.getElementById("Education");
     let x4 = document.getElementById("Hobbies");
     if (x.style.display === "none") {
-        x.style.display = "inline-block";
+        x.style.display = "block";
     }
     x1.style.display = "none";
     x2.style.display = "none";
