@@ -1,0 +1,318 @@
+body{
+    margin: 0px;    
+}
+
+#MyHeader{
+    margin: 0px;
+    height: 70vh;
+    background-image: url(static/headerBG.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.85;
+    background-attachment: fixed;
+    padding-top: 1rem;
+}   
+.navbar{
+
+    list-style: none;
+    padding-left: 1px;
+}
+.navbar li{
+
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar li a{
+    font-size: 30px;
+    color: aquamarine;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.navbar li a:hover{
+    color: rgb(40, 197, 9);
+}
+.centertext{
+text-align: center;
+}
+#Name{
+    color: rgb(110, 245, 200);
+    font-size: 30px;
+    margin-top: 25vh;
+    font-weight: bold;
+}
+.github{
+    width:60px;
+    height:60px;
+    object-fit:cover;
+    border-radius:50%;
+}
+.Linkedin{
+    width:60px;
+    height:60px;
+    object-fit:cover;
+    border-radius:50%;
+}
+.Leetcode{
+    width:60px;
+    height:60px;
+    object-fit:cover;
+    border-radius:50%;
+}
+.accounts li img:hover{
+box-shadow: 0px 0px 6px 4px rgb(78, 185, 7) ;
+}
+#Home{
+    background-image: linear-gradient(white, rgb(22, 192, 235)); 
+    margin-top: 0px;
+    padding-top: 1rem;
+    display: block;
+    padding-bottom: 2rem;
+}
+#HomeImage{
+    height: 25rem;
+    width: 20rem;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#HomeImage img{
+ height: 100%;
+ width: 100%;
+ border-radius: 50%;
+}
+#HomeAbout{
+    font-family: 'Courier New', monospace;
+    font-size: 23px;
+    margin: 20px 10px 0px 10px  ;
+}
+
+.abouticon{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    margin-left: 75vh;
+}
+#Contact{
+    background-image: linear-gradient(rgb(22, 192, 235),white ); 
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    display: "none";
+}
+.Heading{
+ width: auto;
+ padding: 20px 10px 10px;
+ align-items: center;
+ font-weight: 400;   
+}
+.Heading span{
+    font-size: 60px;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 0.5rem;
+}
+#Education{
+    background-image: linear-gradient(rgb(22, 192, 235),white ); 
+    margin-top: 0px;
+    padding-top: 1rem;   
+    display: "none";
+    padding-bottom: 2rem;
+
+}
+
+#Skills{
+    
+    background-image: linear-gradient(white, rgb(22, 192, 235)); 
+    margin-top: 0px;
+    padding-top: 1rem;   
+    padding-bottom: 1rem;
+    display: "none";
+
+}
+.skills-dispay{
+    width: 70%;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skills-progress {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.cpp {width: 80%; background-color: rgb(134, 0, 0);} 
+.html {width: 50%; background-color: rgb(164, 190, 14);} 
+.css {width: 55%; background-color: rgb(12, 105, 0);}
+.js {width: 40%; background-color: rgb(35, 0, 192);} 
+
+.hw{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #0066ec;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #55c9ff;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #000000bd;
+}
+#Hobbies{
+    background-image: linear-gradient(rgb(22, 192, 235),white );
+    margin-top: 0px;
+    display: "none";
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+#Contact {
+    background-image: linear-gradient( rgb(255, 255, 255), #07ff77);
+    color: white;
+    padding-bottom: 40px;
+    display: "none";
+
+}
+#Contact-form {
+    margin-left: 20%;
+}
+#Contact-container {
+    display: flex;
+}
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+#my-details-container h3 {
+    color: rgb(0, 0, 0);
+    font-weight: 550;
+    font-size: 25px;
+}
+#contact-form-container {
+    width: 50%;
+}
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+    font-size: 20px
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+#Contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 1px solid transparent;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    background: transparent;
+    line-height: 1.6;
+    font-size: 20px;
+}
+#Contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.005em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+#Contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+.mobile{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+}
+.imglist ul{
+	margin:0px;
+}
+.imglist li{
+	font-size:25px;
+	margin-left:25px;
+    font-weight: 500;
+	padding:0px;
+	line-height:30px;
+    list-style: none;
+}
+.imglist li img{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+
+}
+
+#clock{
+
+color: black;
+font-size: larger;
+margin-left: 40px;
+margin-bottom: 20px;
+}
+
+.link:link{
+color: black;
+text-decoration: none;
+}
+
+.link:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    }

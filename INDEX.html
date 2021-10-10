@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header id="MyHeader">
+		<nav>
+			<ul class="navbar centertext">
+				<li>
+					<a href="#Home" onclick="fun1()">Home</a>
+				</li>
+				<li>
+					<a id="eId" href="#Education" onclick="fun2()">Education</a>
+				</li>
+				<li>
+					<a id=" sId" href="#Skills" onclick="fun3()">Skills</a>
+				</li>
+				<li>
+					<a id="hoId" href="#Hobbies" onclick="fun4()">Hobbies</a>
+				</li>
+				<li>
+					<a id="cId" href="#Contact" onclick="fun5()">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="Name">
+			<div class="centertext">
+				<h1>
+					PULKIT GUPTA
+				</h1>
+			</div>
+			<div>
+				<ul class="centertext navbar accounts">
+					<li>
+						<a href="https://github.com/Pulkit112">
+							<img src="static/github.png" alt="Github Icon" class="github" />
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/pulkit-gupta-201721192/">
+							<img src="static/linkedin.png" alt="Linkedin Icon" class="Linkedin" />
+						</a>
+					</li>
+					<li>
+						<a href="https://leetcode.com/cesarokingofswing/">
+							<img src="static/leetcode.png" alt="Leetcode Icon" class="Leetcode" />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</header>
+	<section id="Home">
+		<h1 class="Heading mb75px">
+			<span>
+				<img src="static/home.png" alt="icon" class="abouticon" />
+			</span>
+			<span id="ab">HOME</span>
+		</h1>
+		<div id="HomeImage">
+			<img src="static/MyPhoto.jpg" alt="Pukit Gupta">
+		</div>
+		<p id="HomeAbout">
+			Masters of technology 1st Year Student in Computer Science and Engineering Branch currently studying in
+			<b>Institute Of Infomation Technology Hyderabad</b>. A Good Programmer (preferably C++ language)
+			and a GATE and PGEE qualified candidate. A fine knowledge of Data Structure and Algorithms and a keen
+			interest in Operating Systems.
+			A hardworking person who is has a leadership quality and fluent in Hindi and English
+			Wants to become a Good Software Developer.
+
+		</p>
+	</section>
+
+	<section id="Education">
+		<h1 class="Heading mb75px">
+			<span>
+				<img src="static/book.jpg" alt="icon" class="abouticon" />
+			</span>
+			<span id="ab">EDUCATION</span>
+		</h1>
+		<table class="styled-table">
+			<thead>
+				<tr>
+					<th>DEGREE</th>
+					<th>INSTITUTE</th>
+					<th>YEAR OF ADMISSION</th>
+					<th>YEAR OF PASSING</th>
+					<th>PERCENTAGE</th>
+					<th>CGPA</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>M-TECH</td>
+					<td> <a href="https://www.iiit.ac.in/" class="link">IIIT HYDERABAD</a></td>
+					<td>2021</td>
+					<td>2023</td>
+					<td> -- </td>
+					<td> -- </td>
+				</tr>
+				<tr>
+					<td>B-TECH</td>
+					<td><a href="https://iiitranchi.ac.in/" class="link">IIIT RANCHI</a></td>
+					<td>2017</td>
+					<td>2021</td>
+					<td>84.80</td>
+					<td>8.48</td>
+				</tr>
+				<tr>
+					<td>CLASS 12th</td>
+					<td> <a href="https://no1bokaro.kvs.ac.in/" class="link"> K.V.NO.1 BOKARO STEEL CITY</a></td>
+					<td>2015</td>
+					<td>2016</td>
+					<td>91.40</td>
+					<td>9.62</td>
+				</tr>
+				<tr>
+					<td>CLASS 10th</td>
+					<td> <a href="https://no1bokaro.kvs.ac.in/" class="link"> K.V.NO.1 BOKARO STEEL CITY</a></td>
+					<td>2013</td>
+					<td>2014</td>
+					<td>95.00</td>
+					<td>10.00</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="text-align: center;">Link To Resume --></td>
+					<td colspan="3" style="text-align: center;"><a
+							href="https://drive.google.com/file/d/1rYiYgvgPlmnX9ElsIPC_BrZZSjU5V-SD/view?usp=sharing">MY
+							RESUME</a></td>
+
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section id="Skills">
+		<h1 class="Heading mb75px">
+			<span>
+				<img src="static/laptop.png" alt="icon" class="abouticon" />
+			</span>
+			<span id="ab">SKILLS</span>
+		</h1>
+		<div class="skills-display">
+			<div class="hw">C++</div>
+			<div class="skills-progress">
+				<div class="skills cpp">80%</div>
+			</div>
+			<div class="hw">HTML</div>
+			<div class="skills-progress">
+				<div class="skills html">50%</div>
+			</div>
+			<div class="hw">CSS</div>
+			<div class="skills-progress">
+				<div class="skills css">55%</div>
+			</div>
+			<div class="hw">JAVASCRIPT</div>
+			<div class="skills-progress">
+				<div class="skills js">40%</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="Hobbies">
+		<h1 class="Heading mb75px">
+			<span>
+				<img src="static/hobbies.png" alt="icon" class="abouticon" />
+			</span>
+			<span id="ab">HOBBIES</span>
+		</h1>
+		<div class="imglist">
+			<ul>
+				<li><img src="static/arrow.png" alt="arrow" /> Photography</li>
+				<li><img src="static/arrow.png" alt="arrow" />Watching Anime</li>
+				<li><img src="static/arrow.png" alt="arrow" />Listening Music</li>
+				<li><img src="static/arrow.png" alt="arrow" />Singing</li>
+				<li><img src="static/arrow.png" alt="arrow" />Internet Surfing</li>
+			</ul>
+		</div>
+	</section>
+
+
+	<section id="Contact">
+		<h1 class="Heading mb75px">
+			<span>
+				<img src="static/abouticon.png" alt="icon" class="abouticon" />
+			</span>
+			<span id="ab">CONTACT</span>
+		</h1>
+		<div id="Contact-container">
+
+			<div id="contact-form-container">
+				<form id="Contact-form">
+					<input id="input-name" name="name" type="text" placeholder="Your Name">
+					<input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+					<textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
+					<button class="sub-btn" type="submit">SEND MESSAGE</button>
+				</form>
+			</div>
+			<div id="my-details-container">
+
+				<h3> My Address </h3>
+				<div class="my-details-info-container">
+					<span>
+						<img src="static/map.png" alt="icon" class="mobile" />
+					</span>
+					<span>Bokaro,India</span>
+				</div>
+				<div class="my-details-info-container">
+					<span>
+						<img src="static/mobile.jpg" alt="icon" class="mobile" />
+					</span>
+					<span>7903625304</span>
+				</div>
+				<div class="my-details-info-container">
+					<span>
+						<img src="static/email.jpg" alt="icon" class="mobile" />
+					</span>
+					<span>pulkit.gupta@students.iiit.ac.in</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center social-icons">
+			<div>
+				<ul class="centertext navbar accounts">
+					<li>
+						<a href="https://github.com/Pulkit112">
+							<img src="static/github.png" alt="Github Icon" class="github" />
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/pulkit-gupta-201721192/">
+							<img src="static/linkedin.png" alt="Linkedin Icon" class="Linkedin" />
+						</a>
+					</li>
+					<li>
+						<a href="https://leetcode.com/cesarokingofswing/">
+							<img src="static/leetcode.png" alt="Leetcode Icon" class="Leetcode" />
+						</a>
+					</li>
+					<li>
+						<a href="https://www.codechef.com/users/igi7">
+							<img src="static/codechef.jpg" alt="Leetcode Icon" class="Leetcode" />
+						</a>
+					</li>
+				</ul>
+				<div id="clock" onload="currentTime()"></div>
+				<script src="script.js"></script>
+			</div>
+		</div>
+	</section>
+
+</body>
+
+</html>
